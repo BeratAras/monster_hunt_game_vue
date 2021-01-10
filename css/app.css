@@ -1,13 +1,19 @@
+
 .text-center {
     text-align: center;
 }
 
 .healthbar {
-    width: 80%;
     height: 40px;
     background-color: #eee;
     margin: auto;
     transition: width 500ms;
+}
+
+.health-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .controls, .log {
