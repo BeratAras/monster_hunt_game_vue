@@ -54,6 +54,7 @@ new Vue({
         game_over(){
             this.player_heal = 100;
             this.monster_heal = 100;
+            this.logs = [];
             this.game_is_on = false;
         },
         add_to_log(log){
